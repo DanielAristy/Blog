@@ -9,7 +9,7 @@ body {
 
 #container {
   width: 70%;
-  padding: 1em;
+  padding: 0;
   border: 1px solid #ddd;
   margin: 0 auto;
   text-align: left;
@@ -17,4 +17,24 @@ body {
 
 #container h1 {
   font-size: 30px;
+}
+
+#cabecera {
+  background: rgb(53, 45, 165);
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.75);
+  color: white;
+  margin: 0;
+  padding: 1em;
+  font-weight: bold;
+}
+
+#cabecera #inLine {
+  padding: 0 0 0 1em;
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+#post {
+  margin: 0 auto;
+  padding: 1em;
 }
